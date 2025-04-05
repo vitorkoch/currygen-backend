@@ -1,3 +1,5 @@
-﻿namespace CurryGen.Domain.ValueObjects;
+﻿using System.ComponentModel.DataAnnotations;
 
-public record Email(string Address);
+namespace CurryGen.Domain.ValueObjects;
+
+public record Email([EmailAddress] string Address);

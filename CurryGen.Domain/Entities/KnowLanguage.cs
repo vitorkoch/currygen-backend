@@ -1,8 +1,10 @@
 ﻿namespace CurryGen.Domain.Entities;
 
-public enum LanguageProficiency
+public class LanguageProficiency
 {
-};
+    public required string Proficiency { get; init; }
+    public Certificate? Certificate { get; init; }
+}
 
 public class KnowLanguage
 {

@@ -1,3 +1,3 @@
 ﻿namespace CurryGen.Domain.ValueObjects;
 
-public record JobRole(string Role);
+public record Tag(string Value);

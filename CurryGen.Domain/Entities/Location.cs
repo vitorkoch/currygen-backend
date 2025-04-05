@@ -1,6 +1,6 @@
 ﻿namespace CurryGen.Domain.Entities;
 
-public class HabitationLocation
+public class Location
 {
     public required string Country { get; init; }
     public required string City { get; init; }
